@@ -877,8 +877,8 @@ if __name__ == "__main__":
     """
     Точка входа в программу
     """
-    # enriched_regions = enrich_regions(YA_REGIONS)
-    # save_to_jsonl(enriched_regions)
-    # print("Данные сохранены в enriched_regions.jsonl")
+    enriched_regions = enrich_regions(YA_REGIONS)
+    save_to_jsonl(enriched_regions)
+    print("Данные сохранены в enriched_regions.jsonl")
     save_to_elasticsearch_from_file()
     print("Данные загружены в Elasticsearch")
