@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "regions-updater"
 version = "0.1.0"
-description = ""
+description = "Обновление регионов в Elasticsearch"
 authors = ["Sergey Tsepelev <tsepelev@yandex.ru>"]
 readme = "README.md"
 
