@@ -1,0 +1,32 @@
+# Python
+# Python bytecode cache directory
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.pyo
+*.pyd
+*.pyc
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Environment variables
+.env
+
+# Poetry
+poetry.lock
+
+# JSONL files
+*.jsonl
